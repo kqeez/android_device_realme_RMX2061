@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_RMX2061.mk
+    $(LOCAL_DIR)/aosp_RMX2061.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_RMX2061-user \
-    radiant_RMX2061-userdebug \
-    radiant_RMX2061-eng
+    aosp_RMX2061-user \
+    aosp_RMX2061-userdebug \
+    aosp_RMX2061-eng

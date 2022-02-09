@@ -12,10 +12,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := false
 
 # Inherit some Project Radiant common stuff
-$(call inherit-product, vendor/aosp/config/commonmk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := aosp_RMX2061
+PRODUCT_NAME := lineage_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 6 Pro

@@ -11,7 +11,7 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := false
 
-# Inherit some common stuff
+# Inherit some Project Radiant common stuff
 $(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
 # Device identifier
